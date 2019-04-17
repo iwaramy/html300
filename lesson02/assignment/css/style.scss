@@ -1,4 +1,4 @@
-// Import partials here
+
 @import 'base.normalize';
 @import 'settings.variables';
 @import 'settings.responsive';
@@ -6,19 +6,19 @@
 
 h1 {
   color: $primary-grey;
-  padding-left: 1.3rem;
+  padding-left: 1.4rem;
 }
 
 h2 {
-  padding-top: 0.2rem;
+  padding-top: 0.3rem;
+  font-size: 15px;
   padding-left: 2rem;
-  font-size: 14px;
   float: left;
 }
 
 p {
   float: left;
-  padding-left: 0.5rem;
+  padding-left: 0.6rem;
 }
 
 #job-type {
@@ -35,8 +35,7 @@ p {
 
 .left-section {
   float: left;
-  width: 25%;
-  //border: solid red;
+  width: 26%;
   &..default-picture {
     border: 0;
     border-radius: 50%;
@@ -51,7 +50,6 @@ p {
   flex-flow: column;
   float: left;
   width: 60%;
-  //border: solid blue;
   &.column {
     height: auto;
   }
@@ -59,6 +57,6 @@ p {
 
 #linkedin-icon {
   float: left;
-  padding-top: 0.5rem;
+  padding-top: 0.6rem;
   padding-left: 2rem;
 }
